@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inknut Antiqua, serif;
+}
+
+body {
+  background-color: rgb(233, 232, 232);
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  height: 15%;
+}
+
+.trybewarts-header-logo {
+  padding: 10px;
+}
+
+h1 {
+  align-self: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+.trybewarts-login {
+  align-self: center;
+  margin: 10px;
+}
+
+.trybewarts-login input {
+  border-radius: 8px;
+  width: 180px;
+  height: 35px;
+  border: white;
+  padding: 10px;
+  margin: 5px;
+}
+
+.trybewarts-login button {
+  border-radius: 8px;
+  height: 35px;
+  width: 150px;
+  color: white;
+  background-color: purple;
+  border: purple;
+}
+
+::placeholder {
+  font-size: 0.8em;
+}
+
+main {
+  display: flex;
+  font-size: 0.9em;
+}
+
+form {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+#evaluation-form input {
+  margin: 5px;
+}
+
+#input-name {
+  border-radius: 8px;
+  width: 325px;
+  height: 35px;
+  border: white;
+  padding: 10px;
+}
+
+#input-lastname {
+  border-radius: 8px;
+  width: 325px;
+  height: 35px;
+  border: white;
+  padding: 10px;
+}
+
+#input-email {
+  border-radius: 8px;
+  width: 325px;
+  height: 35px;
+  border: white;
+  padding: 10px;
+}
+
+.email-house {
+  height: 50px;
+}
+
+#house {
+  border-radius: 8px;
+  width: 280px;
+  height: 35px;
+  border: white;
+  background-color: white;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  align-self: center;
+  margin: auto;
+}
+
+.nome-completo {
+  display: flex;
+}
+
+.family-study {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.family-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+#avaliationText {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+#avaliationText textarea {
+  resize: vertical;
+  padding: 10px;
+  padding-right: 30px;
+}
+
+#avaliationText p {
+  align-self: end;
+  margin-top: -35px;
+  margin-right: 20px;
+  z-index: 1;
+}
+
+#submit-btn {
+  background-color: purple;
+  border: purple;
+  color: white;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
